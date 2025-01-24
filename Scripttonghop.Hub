@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua
 
        local Window = MakeWindow({
          Hub = {
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=137136010934176",
+       Image = "http://www.roblox.com/asset/?id=116390582868415",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -38,7 +38,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
-      Name = "a",
+      Name = "TAnh",
       Default = false,
       Callback = function()
      end
@@ -82,12 +82,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     Callback = function(Key: Kao)
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaodontsuyy/BloxFruit/refs/heads/main/Kaohub.lua"))()
   end
-  })   AddButton(Tab2o, {
+  })   AddButton(Tab3o, {
      Name = "Rubu Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHubV3.txt"))()
   end
-  })   AddButton(Tab2o, {
+  })   AddButton(Tab3o, {
      Name = "Speeed Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua",true))()
@@ -96,7 +96,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
-     Name = "a",
+     Name = "Auto",
      Options = {"Melee", "Sword", "Bloxfruit", "Gun"},
      Default = "Melee",
      Callback = function()
